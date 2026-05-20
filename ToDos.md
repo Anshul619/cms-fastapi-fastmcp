@@ -89,56 +89,56 @@ Build the core dynamic CMS engine with FastAPI and PostgreSQL.
 ## Features
 
 ### Project Setup
-- [ ] Setup FastAPI project structure
-- [ ] Configure virtual environment
-- [ ] Setup dependency management
-- [ ] Setup Docker & Docker Compose
-- [ ] Configure PostgreSQL container
-- [ ] Setup environment variables
+- [x] Setup FastAPI project structure
+- [x] Configure virtual environment
+- [x] Setup dependency management
+- [x] Setup Docker & Docker Compose
+- [x] Configure PostgreSQL container
+- [x] Setup environment variables
 
 ---
 
 ### Database Layer
-- [ ] Setup SQLAlchemy 2.0
-- [ ] Configure database session handling
-- [ ] Setup Alembic migrations
-- [ ] Create base ORM model
-- [ ] Implement database connection lifecycle
+- [x] Setup SQLAlchemy 2.0
+- [x] Configure database session handling
+- [x] Setup Alembic migrations
+- [x] Create base ORM model
+- [x] Implement database connection lifecycle
 
 ---
 
 ### Dynamic Entity System
-- [ ] Create JSON entity schema format
-- [ ] Implement entity loader
-- [ ] Parse entity definitions dynamically
-- [ ] Generate SQLAlchemy models dynamically
-- [ ] Generate Pydantic schemas dynamically
-- [ ] Register entities at startup
+- [x] Create JSON entity schema format
+- [x] Implement entity loader
+- [x] Parse entity definitions dynamically
+- [x] Generate SQLAlchemy models dynamically
+- [x] Generate Pydantic schemas dynamically
+- [x] Register entities at startup
 
 ---
 
 ### CRUD Engine
-- [ ] Create generic CRUD service
-- [ ] Generate CRUD routes dynamically
-- [ ] Auto-register FastAPI routers
-- [ ] Implement:
-  - [ ] Create
-  - [ ] Read
-  - [ ] Update
-  - [ ] Delete
+- [x] Create generic CRUD service
+- [x] Generate CRUD routes dynamically
+- [x] Auto-register FastAPI routers
+- [x] Implement:
+  - [x] Create
+  - [x] Read
+  - [x] Update
+  - [x] Delete
 
 ---
 
 ### Swagger & API Docs
-- [ ] Ensure generated APIs appear in Swagger
+- [x] Ensure generated APIs appear in Swagger
 - [ ] Add entity metadata documentation
-- [ ] Validate generated schemas
+- [x] Validate generated schemas
 
 ---
 
 ### Example Entities
-- [ ] Tasks
-- [ ] Posts
+- [x] Tasks
+- [x] Posts
 - [ ] Users
 - [ ] Candidates
 
