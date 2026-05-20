@@ -1,0 +1,21 @@
+{
+    "entity": "posts",
+    "table_name": "posts",
+    "fields": [
+        {
+            "name": "title",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "body",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "date",
+            "type": "datetime",
+            "required": true
+        }
+    ]
+}
