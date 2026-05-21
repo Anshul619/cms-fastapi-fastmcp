@@ -8,3 +8,4 @@ sqlalchemy==2.0.36
 psycopg[binary]==3.2.3
 alembic==1.14.1
 watchfiles==1.0.5
+psycopg2-binary==2.9.10

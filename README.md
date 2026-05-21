@@ -45,16 +45,35 @@ The sample entities in [entities/users.json](entities/users.json) and [entities/
 
 ## Run The App
 
+Activate virtual environment
+
+````shell
+python3 -m venv .venv
+source .venv/bin/activate
+````
+
 Create and activate a virtual environment, then install dependencies:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
+OR 
+
+```shell
+pip install -r requirements.txt
+```
+
 Start the API:
 
 ```powershell
 .\.venv\Scripts\uvicorn.exe main:create_app --factory --reload --reload-include "*.json"
+```
+
+Or 
+
+```shell
+uvicorn main:create_app --factory --reload --reload-include "*.json"
 ```
 
 Open the docs UI at `http://127.0.0.1:8000/docs`.
